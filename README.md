@@ -1,5 +1,8 @@
 # КОД ПОЛНОСТЬЮ ПЕРЕРАБОТАН
 # FAQ
+* для yandex желательно создать приложение, https://passport.yandex.ru/profile/ Пароли Приложения Почта или https://yandex.ru/support/mail/mail-clients/others.html
+* для gmail либо включить небезопасные приложения и использовать пароль https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4N_fZ64Mf7eB2x4rZ9fJcGG_hBimURUgg86TgpacWI7Nu8c-PmDm3GTgwo-xlwwi7zEWOLJgXwCtNMoO-FIcF_i327Ahg либо Аккаунт Google, Безопасность, Настроить двухэтапную аутентификацию, Пароли приложений, создать новое приложение Почта, имя любое, и паролем будет 16ти символьный код
+* для остальный все работает в штатном режиме, логин пароль
 ##### send_message: mail_smtp: str, recipient: str, subject: str, text: str 
 * mail_smtp - параметр smtp, например **mail.com**, **yandex.ru** и т.д
 * recipient - отправитель test@mail.ru
